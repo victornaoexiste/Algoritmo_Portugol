@@ -1,20 +1,15 @@
 algoritmo
 	declare
-	n1 numerico
-	n2 numerico
-	resultado numerico
-		escreva "Me diga o primeiro numero para eu dividir"
-		leia n1
-		escreva "Agora me diga o segundo numero"
-		leia n2
-		se n2 <> 0 entao
+	numero numerico
+	escreva "Me diga um numero"
+		leia numero
+		se numero > 20 entao
 			inicio
-				resultado <- n1 / n2
-				escreva "O resultado é ", resultado
+				escreva numero, "é maior que 20"é
+			
 			fim
-		se n2 = 0 entao 
+			senao
 			inicio
-				escreva "impossivel"
+				escreva "O numero nao é maior que 20"
 			fim
 fim_algoritmo
-			
