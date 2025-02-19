@@ -29,7 +29,7 @@ algoritmo
 		fim
 	se n2 > n1 e n2 > n3 entao
 		inicio
-			p <- n1
+			p <- n2
 			se n1 > n3 entao
 				inicio
 					s <- n1
